@@ -52,7 +52,26 @@ main a:hover {
 }
 
 .active{
-  color: var(--color-active);
+  color: rgb(20, 20, 193);
   cursor: default;
+}
+
+main form {
+  margin: 20px 0;
+}
+
+main form input{
+  width: 200px;
+  height: 30px;
+  padding: 5px 5px;
+  border: 1.5px solid #15009c
+}
+
+main form button{
+  padding: 7px 12px;
+  margin-left: 15px;
+  background: #4f3cca;
+  color: white;
+  border: none;
 }
 
