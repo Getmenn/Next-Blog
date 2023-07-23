@@ -67,6 +67,32 @@ main form input{
   border: 1.5px solid #15009c
 }
 
+.googleBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background: #3a1cff;
+  border: none;
+}
+
+.signin, .signInForm{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signin h1{
+  margin-bottom: 50px;
+}
+
+.signin span{
+  margin-top: 15px;
+}
+
+.signInForm{
+  gap: 15px;
+}
+
 main form button{
   padding: 7px 12px;
   margin-left: 15px;
